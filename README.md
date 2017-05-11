@@ -1,2 +1,2 @@
-# blogdown_source
-Source code for my blogdown site
+# alkc.github.io
+Just a repo for a blogdown site.
