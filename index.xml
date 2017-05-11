@@ -13,22 +13,13 @@
     
     
     <item>
-      <title>Three, two, one.</title>
-      <link>https://alkc.github.io/post/2017-05-11-three-two-one/</link>
+      <title>Looking forward —</title>
+      <link>https://alkc.github.io/post/2017-05-11-looking-forward/</link>
       <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://alkc.github.io/post/2017-05-11-three-two-one/</guid>
-      <description>This is a test post. No more. No less.</description>
-    </item>
-    
-    <item>
-      <title>Trying out posting an RMD file.</title>
-      <link>https://alkc.github.io/post/2017-05-11-trying-out-posting-an-rmd-file/</link>
-      <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://alkc.github.io/post/2017-05-11-trying-out-posting-an-rmd-file/</guid>
-      <description>library(ggplot2) library(dplyr) data(&amp;#39;mtcars&amp;#39;) Now, some summary stats. Mostly one big table:
-summary(mtcars) ## mpg cyl disp hp ## Min. :10.40 Min. :4.000 Min. : 71.1 Min. : 52.0 ## 1st Qu.:15.43 1st Qu.:4.000 1st Qu.:120.8 1st Qu.: 96.5 ## Median :19.20 Median :6.000 Median :196.3 Median :123.0 ## Mean :20.09 Mean :6.188 Mean :230.7 Mean :146.7 ## 3rd Qu.:22.80 3rd Qu.:8.000 3rd Qu.:326.0 3rd Qu.</description>
+      <guid>https://alkc.github.io/post/2017-05-11-looking-forward/</guid>
+      <description>I&amp;rsquo;m Alex, and this is the first post on my blog.
+I&amp;rsquo;ll mostly use this thing to collect notes that I want to put up for public scrutiny. The content of the notes will probably deal with R, Bioinformatics, maybe even Data Science in a general way, and God knows what else.</description>
     </item>
     
   </channel>
