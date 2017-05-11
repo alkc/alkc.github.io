@@ -1,0 +1,37 @@
+---
+title: Trying out posting an RMD file.
+author: Alexander Koc
+date: '2017-05-11'
+slug: ''
+categories: []
+tags: [R, test]
+description: 'How about a post description?'
+---
+
+```{r, message=FALSE}
+library(ggplot2)
+library(dplyr)
+data('mtcars')
+```
+
+Now, some summary stats. Mostly one big table:
+
+```{r}
+summary(mtcars)
+```
+
+And this is the part where I try out a plot:
+
+```{r}
+mtcars %>% ggplot(aes(x = mpg, y = hp, color = as.factor(gear))) + geom_point()
+```
+
+But also, an interactive plot:
+
+```{r, message=FALSE}
+library(plotly)
+data('iris')
+iris %>% plot_ly(x = ~Sepal.Length, y = ~Sepal.Width, frame= ~Species, type = 'scatter', mode = 'markers')
+
+```
+
